@@ -3,7 +3,9 @@
 //   2. Nest items inside
 //   3. Functions - @mixin
 
+// Import scss files
 @import 'config';
+@import 'menu';
 
 * {
   box-sizing: border-box;
