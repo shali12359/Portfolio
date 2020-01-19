@@ -11,7 +11,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: $text-color;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 
@@ -89,7 +89,8 @@
    .portrait {
      width: 250px;
      height: 250px;
-     background: url('');
+     background: url('../images/profile.jpg');
+     background-size: cover;
      border-radius: 50%;
      border: solid 8px $secondary-color;
    }
@@ -118,8 +119,8 @@
    font-size: 20px;
    text-transform: uppercase;
    padding: 1rem 0;
-   font-weight: 300;
-   color: $text-color;
+   font-weight: 350;
+   color: set-text-color($primary-color);
    text-decoration: none;
    @include easeOut;
 

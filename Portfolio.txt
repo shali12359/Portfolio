@@ -5,7 +5,7 @@ npm init
 npm i node-sass
 
 3 - Set up sass
-change package.json inside script object make test => sass 
+change package.json inside script object make test => sass
 This will output what's inside script object
 
 4 - Run npm script
@@ -13,4 +13,4 @@ npm run <scriptName>    // Here scriptName=sass
 
 5 - Run sass in watch mode
 put "node-sass -w scss/ -o dist/css/ --recursive" inside sass object
-This will run sass
+npm run sass - this will run sass
