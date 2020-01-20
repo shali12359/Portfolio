@@ -222,6 +222,25 @@ main {
   color: #fff;
   height: 60px; }
 
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 1.5rem;
+    border: 3px #FFF solid;
+    padding: 1rem 2rem;
+    margin-bottom: 2.5rem;
+    transition: all 0.4s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1rem;
+      background: #EECE1A;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
