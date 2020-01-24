@@ -14,3 +14,13 @@ npm run <scriptName>    // Here scriptName=sass
 5 - Run sass in watch mode
 put "node-sass -w scss/ -o dist/css/ --recursive" inside sass object
 npm run sass - this will run sass
+
+6 - deploy
+Deploy project to Github
+Add package.json - npm init
+Add neccesry fields to package.json
+  "homepage": "https://github.com/shali12359/Travelville",
+  script - "deploy": "gh-pages -d dist"  (dist - deploy folder)
+Add github pages
+  npm install gh-pages
+  npm run deploy
